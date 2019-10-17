@@ -27,9 +27,20 @@ def triangle(x, y, size1, size2, color, color2, angle1, angle2):
     turtle.forward(size2)
     return()
 
-def parallelogram(x, y, size, color, angle):
-    #TO DO: (Эля) функция рисов. параллелограмма
-    pass
+def parallelogram(x, y, size1, size2, color, color2, angle1, angle2):
+    turtle.color(color)
+    turtle.fillcolor(color2)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.right(angle1)
+    turtle.pendown()
+    for i in range(2):
+        turtle.forward(size1)
+        turtle.right(angle1)
+        turtle.forward(size2)
+        turtle.right(angle2)
+    return()
 #(Настя) фигура дом, лебедь
 #(Лера) фигура бабочка, лодка
 #(Эля) фигура лиса, рыба
+#код проверен на сайте https://metaschool.ru/pub/konkurs/python/turtle/index.php
