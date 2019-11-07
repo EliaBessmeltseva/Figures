@@ -66,6 +66,22 @@ triangle(-24, 36, 45, 65, 'green', 135, 90, 270)
 #(Nastya) figure house, swan
 #(Lera) figure butterfly, boat
 #(Elia) figure fox, fish
+#butterfly
+triangle(-30,-30,45,70,"red",135,90,225)
+square(-30,15,45,"green",90,180)
+triangle(-76,60,45,70,"gold",135,90,135)
+triangle(15,60,90,128,"blue",135,90,315)
+triangle(106,148,90,128,"brown",135,90,45)
+triangle(107,56,65,95,"cyan",135,90,0)
+parallelogram(59,10,40,60,"pink",135,45,45)
+#boat
+square(-30,-30,45,"gold",90,180)
+triangle(-30,15,45,70,"pink",135,90,45)
+triangle(-27,17,65,95,"green",135,90,0)
+triangle(15,-30,45,70,"blue",135,90,225)
+parallelogram(63,16,45,70,"orange",135,45,135)
+triangle(-63,16,90,128,"red",135,90,180)
+triangle(-60,142,90,128,"magenta",135,90,90)
 
 #code has been checked on the site https://metaschool.ru/pub/konkurs/python/turtle/index.php
 #https://server.179.ru/tasks/python/2017b1/pgm12.5_Turtle.html - Main teams
