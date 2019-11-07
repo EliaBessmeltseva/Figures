@@ -82,7 +82,22 @@ triangle(15,-30,45,70,"blue",135,90,225)
 parallelogram(63,16,45,70,"orange",135,45,135)
 triangle(-63,16,90,128,"red",135,90,180)
 triangle(-60,142,90,128,"magenta",135,90,90)
-
+#house
+square(-43, 113, 35, 'cyan', 90, 0)
+parallelogram(-78, 75, 35, 60, 'pink', 135, 45, -225)
+triangle(30, 30, 45, 65, 'red', 135, 90, 0)
+triangle(32, -34, 45, 65, 'yellow', 135, 90, 270)
+triangle(-100, -34, 90, 128, 'blue', 135, 90, 180)
+triangle(-80, 33, 90, 128, 'orange', 135, 90, 180)
+triangle(-100, -34, 64, 70, 'green', 135, 90, 225)
+#swan
+square(-82, 43, 43, 'blue', 90, 45)
+parallelogram(-82, 45, 60, 45, 'purple', 135, 45, 225)
+triangle(-85, 106, 45, 65, 'red', 135, 90, 45)
+triangle(-114, 13, 45, 65, 'cyan', 135, 90, 90)
+triangle(60, -10, 90, 128, 'orange', 135, 90, 0)
+triangle(20, -100, 90, 128, 'green', 135, 90, -45)
+triangle(-70, -100, 64, 70, 'yellow', 135, 90, 270)
 #code has been checked on the site https://metaschool.ru/pub/konkurs/python/turtle/index.php
 #https://server.179.ru/tasks/python/2017b1/pgm12.5_Turtle.html - Main teams
 #https://docs.python.org/2/library/turtle.html - turtle
