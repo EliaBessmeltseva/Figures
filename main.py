@@ -12,12 +12,13 @@ def square(x, y, size, color, color2, angle):
         turtle.forward(size)
         turtle.right(angle)
     return()
-
-def triangle(x, y, size1, size2, color, color2, angle1, angle2):
-    turtle.color(color)
-    turtle.fillcolor(color2)
+def triangle(x, y, size1, size2, color, angle1, angle2, to_angle):
     turtle.penup()
     turtle.goto(x, y)
+    turtle.setheading(to_angle)
+    turtle.color(color)
+    turtle.fillcolor(color)
+    turtle.begin_fill()
     turtle.right(angle1)
     turtle.pendown()
     turtle.forward(size1)
@@ -25,8 +26,8 @@ def triangle(x, y, size1, size2, color, color2, angle1, angle2):
     turtle.forward(size1)
     turtle.right(angle1)
     turtle.forward(size2)
+    turtle.end_fill()
     return()
-
 def parallelogram(x, y, size1, size2, color, angle1, angle2, to_angle):
     turtle.penup()
     turtle.goto(x, y)
