@@ -1,16 +1,19 @@
 # Case 1
 import turtle
 
-def square(x, y, size, color, color2, angle):
-    turtle.color(color)
-    turtle.fillcolor(color2)
+def square(x, y, size, color, angle, to_angle):
     turtle.penup()
     turtle.goto(x, y)
+    turtle.setheading(to_angle)
+    turtle.color(color)
+    turtle.fillcolor(color)
+    turtle.begin_fill()
     turtle.right(angle)
     turtle.pendown()
     for i in range(4):
         turtle.forward(size)
         turtle.right(angle)
+        turtle.end_fill()
     return()
 def triangle(x, y, size1, size2, color, angle1, angle2, to_angle):
     turtle.penup()
