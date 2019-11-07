@@ -13,7 +13,7 @@ def square(x, y, size, color, angle, to_angle):
     for i in range(4):
         turtle.forward(size)
         turtle.right(angle)
-        turtle.end_fill()
+    turtle.end_fill()
     return()
 def triangle(x, y, size1, size2, color, angle1, angle2, to_angle):
     turtle.penup()
