@@ -54,33 +54,25 @@ def parallelogram(x, y, size1, size2, color, angle1, angle2, to_angle):         
     return()
 
 
-# (Nastya) figure house, swan
-# (Lera) figure butterfly, boat
-# (Elia) figure fox, fish
+triangle(-300, 140, 90, 128, 'orange', 135, 90, 225)         # Fish (Elia)
+triangle(-210, 230, 90, 128, 'green', 135, 90, -45)
+triangle(-302, 295, 45, 65, 'yellow', 135, 90, 45)
+triangle(-346, 203, 45, 65, 'violet', 135, 90, 135)
+square(-301, 248, 44, 'cyan', 90, 0)
+parallelogram(-347, 248, 44, 60, 'blue', 135, 45, 45)
+triangle(-390, 245, 60, 85, 'red', 135, 90, 90)
 
 
-# fish
-triangle(0, -70, 90, 128, 'orange', 135, 90, 225)
-triangle(90, 20, 90, 128, 'green', 135, 90, -45)
-triangle(-2, 85, 45, 65, 'yellow', 135, 90, 45)
-triangle(-47, -7, 45, 65, 'violet', 135, 90, 135)
-square(-2, 38, 44, 'cyan', 90, 0)
-parallelogram(-46, 38, 44, 60, 'blue', 135, 45, 45)
-triangle(-90, 35, 60, 93, 'red', 135, 90, 90)
+triangle(-260, -244, 90, 128, 'orange', 135, 90, 45)         # Fox (Elia)
+parallelogram(-227, -275, 44, 60, 'blue', 135, 45, -90)
+triangle(-324, -178, 90, 128, 'red', 135, 90, 90)
+triangle(-326, -269, 65, 93, 'yellow', 135, 90, 270)
+square(-357, -144, 44, 'cyan', 90, 45)
+triangle(-390, -110, 45, 65, 'violet', 135, 90, 90)
+triangle(-324, -175, 45, 65, 'green', 135, 90, 270)
 
 
-# fox
-triangle(40, -34, 90, 128, 'orange', 135, 90, 45)
-parallelogram(73, -155, 44, 60, 'blue', 135, 45, -90)
-triangle(-24, 32, 90, 128, 'red', 135, 90, 90)
-triangle(-26, -59, 65, 93, 'yellow', 135, 90, 270)
-square(-57, 66, 44, 'cyan', 90, 45)
-triangle(-90, 100, 45, 65, 'violet', 135, 90, 90)
-triangle(-24, 36, 45, 65, 'green', 135, 90, 270)
-
-
-# butterfly
-triangle(-30,-30,45,70,"red",135,90,225)
+triangle(-30,-30,45,70,"red",135,90,225)         # Butterfly (Lera)
 square(-30,15,45,"green",90,180)
 triangle(-76,60,45,70,"gold",135,90,135)
 triangle(15,60,90,128,"blue",135,90,315)
@@ -89,8 +81,7 @@ triangle(107,56,65,95,"cyan",135,90,0)
 parallelogram(59,10,40,60,"pink",135,45,45)
 
 
-# boat
-square(-30,-30,45,"gold",90,180)
+square(-30,-30,45,"gold",90,180)         # Boat (Lera)
 triangle(-30,15,45,70,"pink",135,90,45)
 triangle(-27,17,65,95,"green",135,90,0)
 triangle(15,-30,45,70,"blue",135,90,225)
@@ -99,8 +90,7 @@ triangle(-63,16,90,128,"red",135,90,180)
 triangle(-60,142,90,128,"magenta",135,90,90)
 
 
-# house
-square(-43, 113, 35, 'cyan', 90, 0)
+square(-43, 113, 35, 'cyan', 90, 0)         # House (Nastya)
 parallelogram(-78, 75, 35, 60, 'pink', 135, 45, -225)
 triangle(30, 30, 45, 65, 'red', 135, 90, 0)
 triangle(32, -34, 45, 65, 'yellow', 135, 90, 270)
@@ -109,8 +99,7 @@ triangle(-80, 33, 90, 128, 'orange', 135, 90, 180)
 triangle(-100, -34, 64, 70, 'green', 135, 90, 225)
 
 
-# swan
-square(-82, 43, 43, 'blue', 90, 45)
+square(-82, 43, 43, 'blue', 90, 45)         # Swan (Nastya)
 parallelogram(-82, 45, 60, 45, 'purple', 135, 45, 225)
 triangle(-85, 106, 45, 65, 'red', 135, 90, 45)
 triangle(-114, 13, 45, 65, 'cyan', 135, 90, 90)
@@ -119,6 +108,4 @@ triangle(20, -100, 90, 128, 'green', 135, 90, -45)
 triangle(-70, -100, 64, 70, 'yellow', 135, 90, 270)
 
 
-# code has been checked on the site https://metaschool.ru/pub/konkurs/python/turtle/index.php
-# https://server.179.ru/tasks/python/2017b1/pgm12.5_Turtle.html - Main teams
-# https://docs.python.org/2/library/turtle.html - turtle
+turtle.done()
